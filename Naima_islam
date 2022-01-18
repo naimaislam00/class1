@@ -1,0 +1,96 @@
+<?php
+
+echo "string reverse:","<br>";
+
+$name = "Naima islam";
+
+echo strrev($name),"<br>";
+
+
+echo "count string length:","<br>";
+
+$name = " Naima islam";
+
+echo strlen($name),"<br>";
+
+echo"string concatenation:","<br>";
+
+$name1= "Naima";
+$name2 = "Islam";
+
+echo $name1." ".$name2,"<br>";
+
+echo "operator (=,-,*,/):","<br>";
+
+$num1=10;
+$num2=2;
+
+echo "sum(+)=",$num1 + $num2 ,"<br>";
+echo "minous(-)=",$num1 - $num2 ,"<br>";
+echo "multiply(*)=",$num1 * $num2 ,"<br>";
+echo " division(/)=",$num1 / $num2,"<br>";
+echo "exponentition(x*)=",$num1 ** $num2,"<br>";
+echo "madulus(%)=",$num1 % $num2,"<br>";
+
+echo conditional operator(<,>,<=,>=,==,!=):","<br>";
+
+$num3 = "10";
+$num4 = "2";
+
+echo " less than(<)=", $num3 < $num4,"<br>";
+echo " greater than(>)=", $ num3 > $ num4,"<br>";
+echo " less than equal(<=)=", $num3 <= $ num4, "<br>";
+echo " greater than equal (>=)=", $num3 >= $num4",<br>";
+echo " equal (=)=", $num3 == $num4,"<br>";
+echo " not equal (!=)=", $num3 != $num4,"<br>";
+
+
+echo "find square root:","<br>";
+
+$square_value= "15376";
+$root_value= sqrt($square_value);
+
+echo "M1= ", $square_value,"<br>";
+echo "M2=", sqrt($square_value),"<br>";
+
+
+echo" convert flout to int value :","<br>";
+$f_value= "23.97";
+
+echo "int_value:", (int)$f_value;
+
+echo " convert string to int value:","<br>";
+
+$s_value= "123A23.43";
+$int_value= (int)$s_value;
+echo "m1:", $s_value,"<br>";
+echo"m2:",(int)$s_value;
+
+
+echo "convert round value:","<br>";
+$value1 = "233.97";
+$value2 = "276.23";
+$value3 = "0.49";
+
+
+echo " value_1=", round( $value1),"<br>";
+echo " value_2=", round( $value2),"<br>";
+echo " value_3=", round( $value3),"<br>";
+
+
+echo "convert absulate value;","<br>";
+
+$value1 = -3556.09;
+
+echo "absulate_value = abs($value1);
+
+echo" create random value:","<br>";
+$randomvalue = rand()
+echo($randomvalue);
+echo "<br><br>";
+
+echo "create random value range (-100, 100):","<br>";
+$randomvalue= rand(-100, 100);
+echo ($randomvalue),"<br>";
+
+?>
